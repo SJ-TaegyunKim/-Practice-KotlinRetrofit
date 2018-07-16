@@ -1,7 +1,8 @@
-package practice.ncsoft.com.kotlinretrofit
+package practice.ncsoft.com.kotlinretrofit.InputDisplay.Task
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import practice.ncsoft.com.kotlinretrofit.R
 
 class MainActivity : AppCompatActivity() {
 

@@ -10,7 +10,7 @@ interface SearchContract {
     }
 
     interface Presenter : BasePresenter {
-        // Search Presenter 채우기 (메소드 들)
+        fun network()
     }
 }
 

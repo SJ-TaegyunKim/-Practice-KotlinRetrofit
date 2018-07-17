@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">kotlinRetrofit</string>
+    <string name="navigation_view_header_title">TG API</string>
+    <string name="anywhere_appearance">anywhere</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_search">SearchActivity</string>
 </resources>

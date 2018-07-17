@@ -1,4 +1,4 @@
-package practice.ncsoft.com.kotlinretrofit.InputDisplay.Task.search
+package practice.ncsoft.com.kotlinretrofit.search
 
 import android.os.Bundle
 import android.support.v4.app.Fragment

@@ -35,6 +35,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
 
+
     //Gson Dependencies
     compile 'com.google.code.gson:gson:2.8.2'
 
@@ -46,8 +47,8 @@ dependencies {
 
     //Retrofit2
     compile 'com.squareup.retrofit2:retrofit:2.4.0'
-    compile 'com.squareup.retrofit2:converter-gson:2.4.0'
-    compile "com.squareup.retrofit2:converter-moshi:2.4.0"
+    compile 'com.squareup.retrofit2:converter-gson:2.4.0' // API Json 형식으로 파싱할 때 사용
+    compile "com.squareup.retrofit2:converter-moshi:2.4.0" // 어떤거하는건지 왜들어가야되는지 찾아볼 것.
 
     //Stetho
     compile 'com.facebook.stetho:stetho-urlconnection:1.5.0'

@@ -1,5 +1,13 @@
 package practice.ncsoft.com.kotlinretrofit.data
 
+/**
+ * Model class for a Task.
+ *
+ * @param title       title of the task
+ * @param description description of the task
+ * @param id          id of the task
+ */
+
 data class CurrentValue(val resData: resData)
 
 class resData{

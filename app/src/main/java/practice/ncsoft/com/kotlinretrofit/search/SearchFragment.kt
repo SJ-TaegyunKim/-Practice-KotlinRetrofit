@@ -18,4 +18,8 @@ class SearchFragment : Fragment(), SearchContract.View{
     }
 
 
+    companion object {
+
+        fun newInstance() = SearchFragment()
+    }
 }

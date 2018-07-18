@@ -11,6 +11,9 @@ import retrofit2.Retrofit
 
 class SearchActivity : AppCompatActivity() {
 
+    private lateinit var searchPresenter: SearchPresenter
+
+
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
             R.id.navigation_home -> {
@@ -34,6 +37,18 @@ class SearchActivity : AppCompatActivity() {
         setContentView(R.layout.activity_search)
 
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
+
+
+        // Set up RecycleView (Init)
+        val searchFragment = supportFragmentManager.findFragmentById(R.id.rv_search)
+                as SearchFragment? ?: SearchFragment.newInstance().also {
+            replaceFragmentInActivity(it,R.id.rv_search)
+        }
+
+        //searchPresenter = SearchPresenter(Injection
+
+
+
 
     }
 }
